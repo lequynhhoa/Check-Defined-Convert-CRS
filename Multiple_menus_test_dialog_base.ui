@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Multiple_menusDialogBase</class>
+ <widget class="QDialog" name="Multiple_menusDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>302</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Defined CRS Ovelay Google Earth (Hiển thị hệ tọa độ khớp với GE) - GFD</string>
+  </property>
+  <widget class="QDialogButtonBox" name="button_box">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>260</y>
+     <width>341</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>481</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Vector</string>
+    </attribute>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>231</width>
+       <height>181</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>60</y>
+       <width>221</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>191</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Input CRS (Hệ tọa độ các lớp đầu vào):</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>171</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>System</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 102</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 103</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 104</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 104.5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 104.75</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 105</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 105.5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 105.75</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 106</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 106.25</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 106.5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 107</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 107.25</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 107.5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 107.75</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 108</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 108.25</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VN2000 mui 3 KTT 108.5</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <zorder>groupBox</zorder>
+    <zorder>listWidget</zorder>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Help</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>421</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Chức năng này cho phép hiển thị bản đồ VN2000 nội bộ múi 3 độ chồng khớp với Google</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>421</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Earth. Người dùng cần so sánh dữ liệu với GE chứ không muốn chuyển đổi hệ tọa độ thì</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>141</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>sẽ sử dụng chức năng này.</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>421</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>The function use to defined coordinate system for Viet Nam which do not ovelay with</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>291</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> basemap (Google Map, Satellite Images). </string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>button_box</sender>
+   <signal>accepted()</signal>
+   <receiver>Multiple_menusDialogBase</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_box</sender>
+   <signal>rejected()</signal>
+   <receiver>Multiple_menusDialogBase</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
