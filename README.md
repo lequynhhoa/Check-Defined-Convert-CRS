@@ -1,3 +1,6 @@
+# Kiểm tra thông tin hệ tọa độ, định nghĩa hệ tọa độ khớp với GE và chuyển hệ tọa độ
+Dữ liệu bản đồ của hệ thống ngành Lâm nghiệp hầu hết đều đang ở hệ tọa độ VN2000 Nội bộ, lệch với Google earth 230m. Công cụ này cho phép người dùng chuyển hệ tọa độ, defined hệ tọa độ chồng khớp với Google earth sang định dạng shapefile (.shp)
+
 # Check, Defined and Convert coordinate system
 This plugin have 3 functions: check, defined and convert coordinate system. 
 
